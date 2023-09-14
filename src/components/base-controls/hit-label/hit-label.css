@@ -1,0 +1,19 @@
+.hit-label {
+  margin: 0.5rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.subtitle {
+  font-size: 18px;
+}
+
+.content {
+  font-size: 16px;
+}

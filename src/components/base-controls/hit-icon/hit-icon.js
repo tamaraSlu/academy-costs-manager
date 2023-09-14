@@ -5,7 +5,7 @@ import Filter from '@mui/icons-material/Tune';
 import './hit-icon.css';
 
 /**
- * HIT icon control - Encapsulates MUI's complexity and providing dedicated flexiblity and custom reusability.
+ * HIT icon control - Encapsulates MUI's complexity, providing dedicated flexiblity and custom reusability.
  * @param {Object} properties - Cpmponent's properties:
  * @returns Cusom icon element.
  */
