@@ -8,6 +8,7 @@ import { LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
 import { HitLabel } from './components/base-controls/hit-label/hit-label';
 import { HitSelect } from './components/base-controls/hit-select/hit-select';
+import HitTable from './components/page-components/hit-table/hit-table'
 
 /**
  * Main application component.
@@ -23,6 +24,7 @@ function App() {
           <HitDatepicker>dfgdfgdfg</HitDatepicker>
           <HitLabel fontType='title' bold={false}>dfsdsfds</HitLabel>
           <HitSelect options={['dsfsdf']} label='Choose Category' />
+          <HitTable/>
         </ThemeProvider>
       </LocalizationProvider>
     </div>
